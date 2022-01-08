@@ -1,9 +1,9 @@
 ###  📜 Todo List 
 
 <div align='center'><img src='/public/PublicAssets/TodoIC.gif'></div>
-<div align='center'><img src='/public/PublicAssets/TodoOne.png'></div>
-<div align='center'><img src='/public/PublicAssets/TodoTwo.png'></div>
-<div align='center'><img src='/public/PublicAssets/TodoThree.png'></div>
+<div align='center'><img src='/public/PublicAssets/TodoOne.PNG'></div>
+<div align='center'><img src='/public/PublicAssets/TodoTwo.PNG'></div>
+<div align='center'><img src='/public/PublicAssets/TodoThree.PNG'></div>
 
 <br>
 <hr>
