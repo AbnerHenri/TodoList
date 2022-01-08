@@ -1,4 +1,5 @@
-###  📜 Todo List 
+<div align='center'> ###  📜 Todo List </div> 
+
 
 <div align='center'><img src='/public/PublicAssets/TodoIC.gif'></div>
 <br>
