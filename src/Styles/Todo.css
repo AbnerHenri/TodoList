@@ -1,0 +1,141 @@
+
+.container{
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+}
+
+header{
+    width: 100vw;
+    display: flex;
+    background-color: #4169E1;
+    box-shadow: 0px 2px 5px black;
+    color:white;
+    align-items: center;
+}
+
+li{
+    border:1px solid transparent;
+    border-radius: 18px;
+    border-top-left-radius: 0px;
+    box-shadow: 0px 2px 7px black;
+    background-color: white;
+    color:black;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+    list-style: none;
+    padding:15px;
+    margin-top:15px;
+}
+
+h1{
+    margin-left: 15px;
+    margin-left:150px;
+}
+
+form{
+    display: flex;
+    justify-content: center;
+    margin-left: 150px;
+}
+
+input{
+    border:2px solid rgb(255, 255, 255, 0.5);
+    border-radius: 12px;
+    background-color: transparent;
+    color:white;
+    width: 250px;
+    height: 65px;
+    margin-right: 5px;
+    font-size: 25px;
+    text-align: center;
+}
+
+img{
+    width:30px;
+    transition-duration: 700ms;
+}
+
+.done{
+    text-decoration: line-through;
+    color: rgb(0, 0, 0, 0.5);
+}
+
+.item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal{
+    position:fixed;
+    display:flex;
+    width:100vw;
+    height:100vh;
+    background: #0575e6; 
+    background: -webkit-linear-gradient(to top, #0575e6, #021b79); 
+    background: linear-gradient(to top, #0575e6, #021b79); 
+    align-items: center;
+}
+
+.hide{
+    display:none;
+}
+
+/* ---------------Buttons--------------- */
+
+#buttons{
+    display:flex;
+}
+
+#imageReturn{
+    position:relative;
+    bottom:220px;
+    left:60px;
+    width:60px;
+    height:60px;
+    cursor: pointer;
+}
+
+#butTrash{
+    border:none;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+#butCheck{
+    left: 250px;
+    border:none;
+    border-radius: 12px;
+    background-color: transparent;
+}
+
+.butInp{
+    width:70px;
+    height: 70px;
+    margin-left: 15px;
+    border:5px solid rgb(0, 89, 255);
+    border-radius: 100px;
+    background-color: rgb(113, 179, 199);
+    color:rgb(0, 89, 255);
+    font-weight: 600;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+
+#butTrash:hover, #butCheck:hover{
+    cursor: pointer;
+    background-color: rgb(224, 223, 223);
+    transition-duration: 700ms;
+}
+
+/* ---------------Animes--------------- */
+
+#Animation1{
+    position: absolute;
+    left:50vw;
+    top:15vh;
+    width:500px;
+}
